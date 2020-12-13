@@ -10,12 +10,39 @@
   text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 .Box {
   position: relative;
+}
+
+.BoxForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem auto;
+  width: 90%;
+}
+
+.form-grp {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.form-label {
+  margin-right: 0.5rem;
+}
+
+.form-inp {
+  border: 3px solid rgba(0,0,0,0);
+  border-radius: 5px;
+  color: #474747;
+  padding: 0.5rem 1rem;
+  transition: 300ms ease;
+}
+
+.form-inp:focus {
+  border-color: #61dafb;
+  outline: none;
 }
 
 .title {

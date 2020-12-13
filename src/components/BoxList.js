@@ -19,8 +19,7 @@ class BoxList extends Component {
 
     return (
       <div className="BoxList">
-        <h1 className="title">Color Box Maker Thingy</h1>
-        {boxList}
+      {boxes.length === 0 ? "Add a box!" : boxList}
       </div>
     )
   }
