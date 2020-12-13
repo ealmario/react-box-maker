@@ -14,12 +14,24 @@
   position: relative;
 }
 
+.BoxList {
+  width: 90%;
+}
+
 .BoxForm {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1.5rem auto;
+  margin: 1.5rem auto 2rem auto;
   width: 90%;
+}
+
+.EmptyBox {
+  border: 2px dashed #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 50%;
 }
 
 .form-grp {

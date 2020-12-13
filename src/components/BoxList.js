@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Box from './Box';
+import EmptyBox from './EmptyBox';
 
 class BoxList extends Component {
   constructor(props) {
@@ -19,7 +20,7 @@ class BoxList extends Component {
 
     return (
       <div className="BoxList">
-      {boxes.length === 0 ? "Add a box!" : boxList}
+      {boxes.length === 0 ? <EmptyBox /> : boxList}
       </div>
     )
   }
