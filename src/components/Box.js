@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 
 class Box extends Component {
   render() {
-    const {width, height, color} = this.props;
+    const {width, height, color, id, removeBox} = this.props;
 
     return (
       <div className="Box">
         <div className="btn-container">
-          <button className="delete-btn">X</button>
+          <button className="delete-btn" onClick={() => {removeBox(id)}}>Delete</button>
         </div>
         <div
           className="custom-box"

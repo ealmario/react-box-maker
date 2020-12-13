@@ -4,13 +4,16 @@ import EmptyBox from './EmptyBox';
 
 class BoxList extends Component {
   render() {
-    const { boxes } = this.props;
+    const { boxes, removeBox } = this.props;
 
-    const boxList = boxes.map((box, index) => (
+    const boxList = boxes.map((box) => (
       <Box 
         width={box.width}
         height={box.height}
         color={box.color}
+        key={box.id}
+        id={box.id}
+        removeBox={removeBox}
       />
     ));
 
