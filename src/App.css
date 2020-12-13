@@ -13,3 +13,27 @@
 .App-link {
   color: #61dafb;
 }
+
+.Box {
+  box-shadow: 0px 4px 16px rgba(0,0,0,0.5);
+  position: relative;
+}
+
+.custom-box {
+  border-radius: 5px;
+}
+
+.btn-container {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.delete-btn {
+  background: rgba(0,0,0,0.5);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem;
+}
