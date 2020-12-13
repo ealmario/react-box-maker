@@ -81,3 +81,12 @@
   cursor: pointer;
   padding: 0.5rem;
 }
+
+.add-btn {
+  background: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}

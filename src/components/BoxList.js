@@ -3,12 +3,8 @@ import Box from './Box';
 import EmptyBox from './EmptyBox';
 
 class BoxList extends Component {
-  constructor(props) {
-    super(props)
-    this.state = { boxes: [] }
-  }
   render() {
-    const { boxes } = this.state;
+    const { boxes } = this.props;
 
     const boxList = boxes.map((box, index) => (
       <Box 
